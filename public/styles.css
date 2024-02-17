@@ -1,0 +1,11 @@
+.abc{
+    font-family: 'Bangers';
+}
+/* Define the font face */
+@font-face {
+    font-family: 'YourFontName'; /* Choose a name for your font */
+    src: url('assets/fonts/bangers.ttf') format('.ttf'), /* Specify the font file path and format */
+        
+  }
+  
+ 
