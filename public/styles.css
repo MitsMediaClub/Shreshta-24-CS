@@ -1,11 +1,15 @@
 .abc{
     font-family: 'Bangers';
+    text-shadow: -5px 2px 4px rgba(0, 81, 62, 1);
+
 }
-/* Define the font face */
+
 @font-face {
-    font-family: 'YourFontName'; /* Choose a name for your font */
-    src: url('assets/fonts/bangers.ttf') format('.ttf'), /* Specify the font file path and format */
+    font-family: 'Bangers';
+    src: url('assets/fonts/bangers.ttf') format('ttf');   
         
   }
-  
+.shadow{
+    text-shadow: 4px 2px 4px rgb(3, 78, 60);
+}  
  
