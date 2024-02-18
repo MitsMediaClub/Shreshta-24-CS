@@ -3,6 +3,9 @@
 
   text-shadow: -13px 13px rgba(0, 81, 62, 1);
 }
+body{
+    background: linear-gradient(127deg, #3EA9A2 19.98%, #92C3C0 43.78%);
+}
 
 @font-face {
   font-family: "Bangers";
