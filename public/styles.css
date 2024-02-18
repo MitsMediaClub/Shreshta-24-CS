@@ -1,15 +1,42 @@
-.abc{
-    font-family: 'Bangers';
-    text-shadow: -5px 2px 4px rgba(0, 81, 62, 1);
+.abc {
+  font-family: "Bangers";
 
+  text-shadow: -13px 13px rgba(0, 81, 62, 1);
 }
 
 @font-face {
-    font-family: 'Bangers';
-    src: url('assets/fonts/bangers.ttf') format('ttf');   
-        
+  font-family: "Bangers";
+  src: url("/assets/fonts/bangers.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Apex";
+  src: url("/assets/fonts/Apex.otf") format("opentype");
+}
+@font-face {
+  font-family: "Intergral";
+  src: url("/assets/fonts/IntegralCF-ExtraBoldOblique.otf") format("opentype");
+}
+.shadow {
+  text-shadow: 4px 2px 4px rgb(3, 78, 60);
+}
+@media screen and (max-width: 600px) {
+  .shadow{
+    text-shadow: 1px 1px 2px rgb(3, 78, 60);
   }
-.shadow{
-    text-shadow: 4px 2px 4px rgb(3, 78, 60);
-}  
- 
+    
+}
+.checkout {
+  font-family: "Apex";
+  transition: box-shadow 0.75s, transform 0.75s;
+}
+.checkout:hover {
+    transform: translate(10px, -10px);
+    box-shadow: -10px 10px rgba(24, 38, 1, .85);
+}
+.intergral {
+  font-family: "Intergral";
+}
+.intergral {
+  font-family: "Intergral";
+  font-style: oblique;
+}
